@@ -1,46 +1,98 @@
-# Backend Developer
+# Hi, I'm Nikolay (Kolja) 👋
 
-### My Stack
+**Junior .NET Developer** · Russia · Aiming to relocate to Serbia
 
-<p align="left">
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="https://skillicons.dev/icons?i=cs" width="36" height="36" alt="C#" /></a>
-  <a href="https://dotnet.microsoft.com/apps/aspnet" target="_blank"><img src="https://raw.githubusercontent.com/dotnet/brand/main/logo/dotnet-logo.svg" width="36" height="36" alt=".NET Core" /></a>
-  <a href="https://dotnet.microsoft.com/apps/aspnet/signalr" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="36" height="36" alt="SignalR" /></a>
-  <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgresql" width="36" height="36" alt="PostgreSQL" /></a>
-  <a href="https://sqlite.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="36" height="36" alt="SQLite" /></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" width="36" height="36" alt="Git" /></a>
-  <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" width="36" height="36" alt="Docker" /></a>
-  <a href="https://www.postman.com/" target="_blank"><img src="https://skillicons.dev/icons?i=postman" width="36" height="36" alt="Postman" /></a>
-  <a href="https://swagger.io/" target="_blank"><img src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" width="36" height="36" alt="Swagger" /></a>
-  <a href="https://www.nginx.com/" target="_blank"><img src="https://skillicons.dev/icons?i=nginx" width="36" height="36" alt="Nginx" /></a>
-  <a href="https://jwt.io/" target="_blank"><img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/jwt.svg" width="36" height="36" alt="JWT" /></a>
-  <a href="https://en.wikipedia.org/wiki/Clean_architecture" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/9199/9199681.png" width="36" height="36" alt="Clean Architecture" /></a>
-  <a href="https://en.wikipedia.org/wiki/REST" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1659/1659094.png" width="36" height="36" alt="REST API" /></a>
-</p>
+I'm a self-taught backend developer focused on building real systems — not just CRUD apps. My background spans .NET microservices architecture, BI analytics, and AI-assisted development workflows.
 
-**Technologies:** ASP.NET Core · Entity Framework · REST APIs · Clean Architecture  
+---
 
---------------------
+## 🛠 Tech Stack
 
-### 👋 About Me
+**Backend**
+![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
 
-Hi there!  
-I'm a backend developer passionate about building scalable web applications and APIs.  
-I focus on clean code, performance, and maintainable architectures.  
-I have experience working with .NET Core, SignalR, and PostgreSQL, as well as building secure APIs with JWT.
+**Architecture & Patterns**
+Clean Architecture · CQRS · DDD · Vertical Slice Architecture · FastEndpoints
+Outbox Pattern · Optimistic Concurrency · Idempotency · Domain Events · Soft Delete
 
---------------------
+**Infrastructure**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+YARP · MassTransit · MinIO · SignalR
 
-### Currently Working On
+**Frontend**
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 
-- Expanding unit, integration, and functional test coverage  
-- Setting up CI/CD pipelines for automation  
-- Exploring SignalR and background services
+**Analytics & ML**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+KNN classifier (review sentiment analysis) · BI reporting
 
---------------------
+---
 
-### GitHub Stats
+## 📦 Projects
 
-<a href="https://github.com/jinxinzero7">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jinxinzero7&stroke=ffffff&background=171717&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
-</a>
+### [AuHub](https://github.com/jinxinzero7/AuHub) — Online Auction Platform
+> Diploma project · April–May 2026
+
+A production-ready auction system built with a microservices architecture.
+
+- **4 microservices**: Identity, Auctions, Notifications, Payment
+- **11 Docker containers**, YARP API Gateway with rate limiting & health checks
+- **Real-time bidding** via SignalR with sniper protection (auto-extend on late bids)
+- **13 auction statuses** covering the full lifecycle from Draft to TransactionComplete
+- **Payment system**: wallet-based reserve/release/charge/transfer
+- **Async messaging**: RabbitMQ + MassTransit with Outbox Pattern
+- **Security**: JWT + refresh token rotation with replay attack detection
+- **Testing**: 90 unit tests (xUnit + NSubstitute + FluentAssertions)
+
+Frontend: [AuHub-Frontend](https://github.com/jinxinzero7/AuHub-Frontend) · Next.js 16 + TypeScript + TailwindCSS
+
+---
+
+### [Event Platform API](https://github.com/jinxinzero7/Events) — Event Management System
+> Educational project
+
+Clean Architecture monolith with role-based access and ticketing.
+JWT auth · role system (Attendee / Organizer / Admin) · ticket purchasing · refund system
+
+---
+
+### [ToDo API](https://github.com/jinxinzero7/ToDoList) — Minimal REST API
+> First independent project
+
+ASP.NET Core + SQLite · CRUD via Entity Framework · foundational project
+
+---
+
+## 🧠 About My Workflow
+
+I treat AI tools as a serious part of the development process — not a shortcut, but a force multiplier. I design architecture, make technical decisions, review generated code, write tests, and fix bugs. This is how I shipped a full microservices system with 4 services, real-time bidding, and a complete payment engine within tight deadlines.
+
+That said: writing code by hand matters too, and my next portfolio project will be built primarily that way — with AI in the mentor role.
+
+---
+
+## 🏆 Other
+
+- 🥈 2nd place — *Профессионалы 2025*, BI Analytics (regional)
+- 🥉 3rd place — *Профессионалы 2026*, BI Analytics (regional)
+
+---
+
+## 🎯 What I'm Building Toward
+
+After my diploma defense I'm planning a portfolio project: 3–4 microservices, Polly resilience patterns, Redis caching, CI/CD with GitHub Actions, full integration test coverage — documented in English, targeting the international job market.
+
+Long-term goal: remote .NET developer role, relocation to Serbia.
+
+---
+
+*Open to junior .NET roles — remote preferred.*
