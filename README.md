@@ -1,98 +1,87 @@
-# Hi, I'm Nikolay (Kolja) 👋
+<div align="center">
 
-**Junior .NET Developer** · Russia · Aiming to relocate to Serbia
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,100:313244&height=200&section=header&text=Nikolai&fontSize=85&fontColor=cdd6f4&animation=fadeIn&fontAlignY=45&desc=Backend%20Developer%20%7C%20C%23%20%2F%20.NET&descAlignY=65&descSize=22&descColor=818cf8)
 
-I'm a self-taught backend developer focused on building real systems — not just CRUD apps. My background spans .NET microservices architecture, BI analytics, and AI-assisted development workflows.
+</div>
 
----
+<div align="center">
 
-## 🛠 Tech Stack
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=818CF8&center=true&vCenter=true&width=600&lines=Microservices+%26+Clean+Architecture;Patterns+that+survive+production;Building+real+backend+systems)](https://git.io/typing-svg)
 
-**Backend**
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=flat&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+<br/>
 
-**Architecture & Patterns**
-Clean Architecture · CQRS · DDD · Vertical Slice Architecture · FastEndpoints
-Outbox Pattern · Optimistic Concurrency · Idempotency · Domain Events · Soft Delete
+![](https://img.shields.io/badge/Focus-Microservices_%26_Backend-818cf8?style=flat-square&labelColor=1e1e2e)
+&nbsp;
+![](https://img.shields.io/badge/Open_to-Remote_Roles-22c55e?style=flat-square&labelColor=1e1e2e)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=jinxinzero7&color=818cf8&style=flat-square&label=profile+views)
 
-**Infrastructure**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-YARP · MassTransit · MinIO · SignalR
-
-**Frontend**
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-**Analytics & ML**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-KNN classifier (review sentiment analysis) · BI reporting
+</div>
 
 ---
 
-## 📦 Projects
+### 🧠 about
 
-### [AuHub](https://github.com/jinxinzero7/AuHub) — Online Auction Platform
-> Diploma project · April–May 2026
-
-A production-ready auction system built with a microservices architecture.
-
-- **4 microservices**: Identity, Auctions, Notifications, Payment
-- **11 Docker containers**, YARP API Gateway with rate limiting & health checks
-- **Real-time bidding** via SignalR with sniper protection (auto-extend on late bids)
-- **13 auction statuses** covering the full lifecycle from Draft to TransactionComplete
-- **Payment system**: wallet-based reserve/release/charge/transfer
-- **Async messaging**: RabbitMQ + MassTransit with Outbox Pattern
-- **Security**: JWT + refresh token rotation with replay attack detection
-- **Testing**: 90 unit tests (xUnit + NSubstitute + FluentAssertions)
-
-Frontend: [AuHub-Frontend](https://github.com/jinxinzero7/AuHub-Frontend) · Next.js 16 + TypeScript + TailwindCSS
+Backend developer focused on building systems that survive production — microservices,
+clean architecture, real infrastructure. I care about patterns that matter, not just
+syntax that compiles.
 
 ---
 
-### [Event Platform API](https://github.com/jinxinzero7/Events) — Event Management System
-> Educational project
+### 🛠 stack
 
-Clean Architecture monolith with role-based access and ticketing.
-JWT auth · role system (Attendee / Organizer / Admin) · ticket purchasing · refund system
+<div align="center">
 
----
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,postgres,docker,redis,rabbitmq,ts,nextjs,tailwind,git,linux&perline=11)](https://skillicons.dev)
 
-### [ToDo API](https://github.com/jinxinzero7/ToDoList) — Minimal REST API
-> First independent project
+</div>
 
-ASP.NET Core + SQLite · CRUD via Entity Framework · foundational project
+<br/>
 
----
+<div align="center">
 
-## 🧠 About My Workflow
+`Clean Architecture` `CQRS` `DDD` `Outbox Pattern` `JWT` `Idempotency`
+`SignalR` `MassTransit` `YARP` `EF Core`
 
-I treat AI tools as a serious part of the development process — not a shortcut, but a force multiplier. I design architecture, make technical decisions, review generated code, write tests, and fix bugs. This is how I shipped a full microservices system with 4 services, real-time bidding, and a complete payment engine within tight deadlines.
-
-That said: writing code by hand matters too, and my next portfolio project will be built primarily that way — with AI in the mentor role.
+</div>
 
 ---
 
-## 🏆 Other
+### 📊 github stats
 
-- 🥈 2nd place — *Профессионалы 2025*, BI Analytics (regional)
-- 🥉 3rd place — *Профессионалы 2026*, BI Analytics (regional)
+<div align="center">
+
+<a href="https://github.com/jinxinzero7">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=jinxinzero7&show_icons=true&hide_border=true&count_private=true&bg_color=1e1e2e&title_color=818cf8&icon_color=818cf8&text_color=cdd6f4"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinxinzero7&layout=compact&hide_border=true&bg_color=1e1e2e&title_color=818cf8&text_color=cdd6f4"/>
+</a>
+
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=jinxinzero7&hide_border=true&background=1e1e2e&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&dates=a6adc8&currStreakNum=cdd6f4&sideLabels=818cf8&sideNums=cdd6f4)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
-## 🎯 What I'm Building Toward
+<div align="center">
 
-After my diploma defense I'm planning a portfolio project: 3–4 microservices, Polly resilience patterns, Redis caching, CI/CD with GitHub Actions, full integration test coverage — documented in English, targeting the international job market.
+🥈 Профессионалы 2025 · BI Analytics · regional &nbsp;&nbsp;
+🥉 Профессионалы 2026 · BI Analytics · regional
 
-Long-term goal: remote .NET developer role, relocation to Serbia.
+</div>
 
 ---
 
-*Open to junior .NET roles — remote preferred.*
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jinxinzero7)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=jinxinzero7@gmail.com)
+
+</div>
+
+<div align="center">
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:313244,100:1e1e2e&height=100&section=footer)
+
+</div>
